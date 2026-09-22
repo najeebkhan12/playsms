@@ -3,9 +3,7 @@
 PATHSRC=$(pwd)
 
 echo
-echo "Getting composer from https://getcomposer.org"
-echo
-echo "Please wait while this script downloading composer"
+echo "Getting composer via official docker image"
 echo
 
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
