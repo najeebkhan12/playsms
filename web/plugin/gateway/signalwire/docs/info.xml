@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+	<name>signalwire</name>
+	<alias>Gateway SignalWire</alias>
+	<description>Gateway SignalWire Compatibility API</description>
+	<release>1.0</release>
+	<date>2026-09-23</date>
+	<author>playSMS</author>
+	<language_file>1</language_file>
+	<sql_file>0</sql_file>
+	<php_file>1</php_file>
+</plugin>

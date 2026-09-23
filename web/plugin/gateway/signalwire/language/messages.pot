@@ -1,0 +1,80 @@
+msgid "API token"
+msgstr ""
+
+msgid "All mandatory fields must be filled"
+msgstr ""
+
+msgid "Callback URL"
+msgstr ""
+
+msgid "Callback access"
+msgstr ""
+
+msgid "Callback authcode"
+msgstr ""
+
+msgid "E.164 number from your SignalWire account, empty to disable"
+msgstr ""
+
+msgid "Eg: +0700 for UTC+7 or Jakarta/Bangkok timezone"
+msgstr ""
+
+msgid "Enable Always add plus sign in main configuration so destination numbers stay in E.164"
+msgstr ""
+
+msgid "Fail to save gateway module configurations"
+msgstr ""
+
+msgid "Fill to change the API token"
+msgstr ""
+
+msgid "Fill with IP addresses (separated by comma) to limit access to callback URL"
+msgstr ""
+
+msgid "Fill with at least 16 alphanumeric authentication code to secure callback URL"
+msgstr ""
+
+msgid "Gateway module configurations has been saved"
+msgstr ""
+
+msgid "Manage"
+msgstr ""
+
+msgid "Module sender ID"
+msgstr ""
+
+msgid "Module timezone"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Project ID"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Set this callback URL as the When a message comes in webhook on your SignalWire phone number"
+msgstr ""
+
+msgid "SignalWire Project ID from the API credentials page"
+msgstr ""
+
+msgid "SignalWire space"
+msgstr ""
+
+msgid "SignalWire will push DLR and incoming SMS to your callback URL"
+msgstr ""
+
+msgid "Space name or host, e.g. example or example.signalwire.com"
+msgstr ""
+
+msgid "You have to include callback authcode as query parameter %s"
+msgstr ""
+
+msgid "Your callback requests must be coming from IP addresses listed in callback access"
+msgstr ""
+
+msgid "Your callback URL must be accessible from IP addresses listed in callback access"
+msgstr ""

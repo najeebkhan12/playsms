@@ -600,6 +600,20 @@ CREATE TABLE `playsms_gatewayJasmin_log` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `playsms_gatewaySignalwire_log`
+--
+
+DROP TABLE IF EXISTS `playsms_gatewaySignalwire_log`;
+CREATE TABLE `playsms_gatewaySignalwire_log` (
+  `c_timestamp` bigint(20) NOT NULL DEFAULT 0,
+  `id` int(11) NOT NULL,
+  `local_smslog_id` int(11) NOT NULL DEFAULT 0,
+  `remote_smslog_id` varchar(100) NOT NULL DEFAULT ''
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `playsms_gatewayNexmo`
 --
 
@@ -1574,6 +1588,12 @@ ALTER TABLE `playsms_gatewayJasmin_log`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `playsms_gatewaySignalwire_log`
+--
+ALTER TABLE `playsms_gatewaySignalwire_log`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `playsms_gatewayNexmo`
 --
 ALTER TABLE `playsms_gatewayNexmo`
@@ -1911,6 +1931,12 @@ ALTER TABLE `playsms_gatewayGeneric_log`
 -- AUTO_INCREMENT for table `playsms_gatewayJasmin_log`
 --
 ALTER TABLE `playsms_gatewayJasmin_log`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `playsms_gatewaySignalwire_log`
+--
+ALTER TABLE `playsms_gatewaySignalwire_log`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
